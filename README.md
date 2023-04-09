@@ -1,4 +1,5 @@
 # Opdrachtbeschrijving
+// Test "First commit"
 
 ## Inleiding
 
@@ -96,7 +97,7 @@ Maak deze gehele opdracht eerst alsof je het voor één tv doet. We gaan één t
   43 inch (109 cm) | 50 inch (127 cm) | 58 inch (147 cm)
   ```
 
-* **Opdracht 4e:** Maak een herbruikbare functie die de informatie van **alle** tv's weergeeft op de pagina. Gebruik hiervoor de map-methode in combinatie met de functies die je hebt gemaakt in opdracht 4a, 4b en 4c. 
+* **Opdracht 4e:** Maak een herbruikbare functie die de informatie van **alle** tv's weergeeft op de pagina. Gebruik hiervoor de map-methode in combinatie met de functies die je hebt gemaakt in opdracht 4a, 4b en 4c.
 
 #### Bonusopdracht
 

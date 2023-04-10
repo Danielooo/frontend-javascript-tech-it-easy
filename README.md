@@ -12,7 +12,7 @@ gaan dat Tech It Easy pas voorraad aanvult als alle producten zijn verkocht.
 
 ![Tech it easy](./assets/tech_it_easy.png)
 
-In de `inventory` array (in `main.js`) vind je 8 tv-objecten. Elk tv-object bevat de volgende informatie:
+In de `inventory` array (in `arrayMethods.js`) vind je 8 tv-objecten. Elk tv-object bevat de volgende informatie:
 
 * `type` - het tv type
 * `brand` - het merk

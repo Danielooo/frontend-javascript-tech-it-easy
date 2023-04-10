@@ -1,0 +1,16 @@
+/*body {*/
+/*  background-color: black;*/
+/*  color: white;*/
+/*}*/
+
+#show-sold-tvs {
+  color: green;
+}
+
+#show-total-original-stock {
+  color: blue;
+}
+
+#show-tvs-to-sell {
+ color: Red;
+}

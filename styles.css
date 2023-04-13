@@ -1,16 +1,85 @@
-/*body {*/
-/*  background-color: black;*/
-/*  color: white;*/
-/*}*/
+body {
+  font-family: Arial, sans-serif;
+}
 
+/*  OPDRACHT 2  */
 #show-sold-tvs {
+  background-color: lightblue;
   color: green;
 }
 
 #show-total-original-stock {
+  background-color: lightskyblue;
   color: blue;
 }
 
 #show-tvs-to-sell {
- color: Red;
+  background-color: lightblue;
+  color: Red;
 }
+
+/*  OPDRACHT 3  */
+#show-all-brands {
+  background-color: lightskyblue;
+}
+
+#show-all-brands-via-function {
+  background-color: lightblue;
+}
+
+#show-all-type-nrs {
+  background-color: lightskyblue;
+}
+
+/*  OPDRACHT 4  */
+.spec-block div {
+  background-color: lightblue;
+  margin-top: 20px;
+  padding: 20px;
+
+}
+
+/*  BONUSOPDRACHT   */
+.outer-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  background-color: lightblue;
+}
+
+.outer-container button {
+  padding: 10px 20px;
+  margin: 10px 10px 10px ;
+  font-size: 16px;
+  border-radius: 25px;
+  border: none;
+  background-color: #0077cc;
+  color: #ffffff;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.outer-container button:hover {
+    background-color: lightblue;
+}
+
+.outer-container button:visited {
+    background-color: black;
+    text-decoration: underline;
+}
+
+.outer-container button:active {
+    box-shadow: 2px 2px 5px lightgrey;
+}
+
+.outer-container p {
+  margin-left: 20px;
+}
+
+
+
+
+
+

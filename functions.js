@@ -84,10 +84,12 @@ const tvSpecs = document.getElementById('showTvSpecs');
 const iter    = 0;
 
 tvSpecs.innerHTML = `
-        <p>${printFirstLineTv(inventory[iter])}</p>
-        <p>${printSecondLineTv(inventory[iter])}</p>
-        <p>${printThirdLineTv(inventory[iter])}</p>
-        <p></p>
+        <div>
+          <p>${printFirstLineTv(inventory[iter])}</p>
+          <p>${printSecondLineTv(inventory[iter])}</p>
+          <p>${printThirdLineTv(inventory[iter])}</p>
+          <p></p>
+        </div>
 `;
 
 
@@ -98,8 +100,8 @@ tvSpecs.innerHTML = `
 const allTvSpecs = document.getElementById('showAllTvSpecs');
 
 allTvSpecs.innerHTML = `
-    <p>Specs van alle tv's: </p>
-    ${getAllTvSpecs(inventory)}
+      <p>Specs van alle tv's: </p>
+      ${getAllTvSpecs(inventory)}
 `;
 
 // loopt door alle objecten en maakt een grote string om in de variabele te zetten met .innerHTML
@@ -115,10 +117,11 @@ function getAllTvSpecs(arrayOfObjects) {
 // maakt een blok met specs voor een enkele tv
 function getTvSpecs(obj) {
   const tempTvSpecs = `
+     <div>
         <p>${printFirstLineTv(obj)}</p>
         <p>${printSecondLineTv(obj)}</p>
         <p>${printThirdLineTv(obj)}</p>
-        <p></p>
+     </div>
   `;
   return tempTvSpecs;
 }

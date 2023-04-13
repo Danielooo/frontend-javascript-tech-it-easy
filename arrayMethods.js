@@ -18,9 +18,10 @@ import { inventory } from "./main.js";
 // console.
 
 // Opdracht 1a.
+// TODO fix needed: tv namen worden niet getoond op console
 const tvNames = inventory.map((tv) => {
   return tv.name
-})
+});
 
 console.log('\nTv Names')
 console.log(tvNames);
